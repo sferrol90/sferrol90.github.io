@@ -1,0 +1,155 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+#myName {
+  font-size: 32px;
+  }
+  
+header nav {
+  display: flex;
+  justify-content: flex-end:
+}
+
+.topthreeparagraphs {
+  color:Green;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://scontent.xx.fbcdn.net/v/t51.2885-15/50902209_242738176663234_5399472405527495949_n.jpg?_nc_cat=110&_nc_oc=AQkcTI_ow1bZFDLrzEz3_rEatycyVXesvDgvSZUk_Hpoq85fPPlV4LoofI4T8tNYu0M&_nc_ht=scontent.xx&oh=7d686ced325d77c68642e73698dcfaf3&oe=5D3E8CBB');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+#firstfav {
+  font-size: 32px;
+  font-weight: 700;
+  text-align:center;
+  color: Red;
+  }
+
+#secondfav {
+  font-size: 45px;
+  font-weight: 600;
+  text-align:center;
+  color: Purple;
+  }
+
+#thirdfav {
+  font-size: 50px;
+  font-weight: 500;
+	text-align:center;
+  color: Gold;
+  }
+
+#forthfav {
+  font-size: 64px;
+  font-weight: 650;
+  text-align:center;
+  color: Green;
+  }
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: Black;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+#quotes { 
+  font-weight:Bold;
+  text-align:center;
+ } 
+#firstquote { 
+  font-size:30px;
+  font-family: 'Roboto', sans-serif;
+  color: Aqua;
+ } 
+
+#secondquote { 
+  font-size:35px;
+  font-family: 'Palatino', Times;
+  color: Orange;
+ } 
+
+#thirdquote { 
+  font-size:40px;
+  font-family: 'Courier New', Verdana;
+  color: Maroon;
+ } 
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
